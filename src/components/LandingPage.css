@@ -1,0 +1,56 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    text-align: center;
+    background-color: #1e1e2f; /* Semi-dark background */
+    color: #cfcfd9; /* Muted text color */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-icon {
+    color: #61dafb; /* Icon color matches app theme */
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #3a3e4a;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #282c34; /* Dark input field */
+    color: #cfcfd9;
+  }
+  
+  input::placeholder {
+    color: #a1a1b2; /* Muted placeholder */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1e1e2f;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #41a1db;
+  }
+  

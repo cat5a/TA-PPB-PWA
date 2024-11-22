@@ -1,0 +1,89 @@
+/* src/components/AdvancedSearch.css */
+.advanced-search {
+    background-color: #1e1e2f; /* Semi-dark background */
+    color: #cfcfd9; /* Muted text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #3a3e4a;
+    border-radius: 5px;
+    background-color: #282c34; /* Dark input field */
+    color: #cfcfd9;
+    width: 200px;
+  }
+  
+  .filters input::placeholder {
+    color: #a1a1b2; /* Muted placeholder */
+  }
+  
+  .filters button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1e1e2f;
+    font-weight: bold;
+  }
+  
+  .filters button:hover {
+    background-color: #41a1db;
+  }
+  
+  .games-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .game-card {
+    background-color: #2a2d3e; /* Dark card background */
+    border: 1px solid #3a3e4a;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .game-card h3 {
+    margin: 10px 0;
+    color: #ffffff; /* Bright text for titles */
+  }
+  
+  .game-card p {
+    color: #a1a1b2; /* Muted text color for descriptions */
+  }
+  
+  .game-card button {
+    background-color: #61dafb;
+    color: #1e1e2f;
+    font-weight: bold;
+  }
+  
+  .game-card button:hover {
+    background-color: #41a1db;
+  }
+  

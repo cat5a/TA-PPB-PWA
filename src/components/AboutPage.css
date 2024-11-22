@@ -1,0 +1,29 @@
+/* src/components/AboutPage.css */
+.about-page {
+    background-color: #1e1e2f; /* Semi-dark background */
+    color: #cfcfd9; /* Muted text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+    margin-top: 20px;
+    max-width: 800px;
+    text-align: justify;
+    margin: auto; /* Center the page */
+    min-height: 100vh; /* Ensure the page fills the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #ffffff; /* Brighter text for headings */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.6; /* Improve readability */
+    color: #cfcfd9; /* Text matches dark mode theme */
+  }
+  

@@ -1,0 +1,83 @@
+/* src/components/GamesList.css */
+.games-list-page {
+  background-color: #1e1e2f; /* Semi-dark background */
+  color: #cfcfd9; /* Muted text color */
+  min-height: 100vh; /* Ensure the page takes the full viewport height */
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #3a3e4a; /* Slightly lighter border for contrast */
+  border-radius: 5px;
+  width: 300px;
+  background-color: #282c34; /* Dark input field */
+  color: #cfcfd9;
+}
+
+.search-bar input::placeholder {
+  color: #a1a1b2; /* Muted placeholder text */
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #1e1e2f;
+  font-weight: bold;
+}
+
+.search-bar button:hover {
+  background-color: #41a1db;
+}
+
+.games-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.game-card {
+  background-color: #2a2d3e; /* Dark card background */
+  border: 1px solid #3a3e4a; /* Slightly lighter border */
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.game-card h3 {
+  margin: 10px 0;
+  color: #ffffff; /* Bright white for titles */
+}
+
+.game-card p {
+  color: #a1a1b2; /* Muted text color */
+}
+
+.game-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.game-card button {
+  background-color: #61dafb;
+  color: #1e1e2f;
+  font-weight: bold;
+}
+
+.game-card button:hover {
+  background-color: #41a1db;
+}
